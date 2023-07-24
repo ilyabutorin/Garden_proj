@@ -1,0 +1,88 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #A7A7A7;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    max-height: 200px;
+}
+
+.card_area {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1.3fr;
+}
+
+.card img {
+    width: 160px;
+    border-radius: 8px;
+}
+
+.delete_button {
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.delete_button:hover {
+    color: red;
+}
+
+.second_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 15px;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
+.count_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 30px;
+    width: 125px;
+    border-radius: 10px;
+    color: black;
+    align-items: center;
+}
+
+.count_button button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 35px;
+    align-items: center;
+}
+
+.count_button img {
+    width: 14px;
+}
+
+.price_block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.new_price{
+    font-size: 35px;
+}
+
+.old_price{
+    font-size: 15px;
+    color: #8B8B8B;
+    text-decoration: line-through;
+}

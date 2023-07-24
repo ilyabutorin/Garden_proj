@@ -1,0 +1,118 @@
+.main_block {
+    width: 1110px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.first_block {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.back_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.back_button a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    gap: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.back_button img {
+    height: 10px;
+}
+
+.right_block {
+    border-top: 1px solid #A7A7A7;
+    margin-right: 40px;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+
+.left_block{
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.total_amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.text {
+    font-size: 17px;
+}
+
+.left_block h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.left_block input {
+    height: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.left_block button {
+    height: 50px;
+    background-color: #339933;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.left_block button:hover{
+    box-shadow: 0px 3px 7px 1px #a7c957;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
